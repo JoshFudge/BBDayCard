@@ -1,15 +1,16 @@
 "use strict"
 
 $(document).ready( () => {
+    $("#openedCard").hide()
 
 $("#ClosedCard").click( () => {
-    $("#ClosedCard").toggleClass("hidden");
-    $("#openedCard").toggleClass("hidden")
+    $("#ClosedCard").hide();
+    $("#openedCard").show()
 })
 
 $("#openedCard").click( () => {
-    $("#ClosedCard").toggleClass("hidden");
-    $("#openedCard").toggleClass("hidden")
+    $("#ClosedCard").show();
+    $("#openedCard").hide()
 })
 
 })
