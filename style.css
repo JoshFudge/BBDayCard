@@ -1,0 +1,63 @@
+body{
+    background-color: pink;
+    font-family: 'Trebuchet MS';
+}
+
+#phat{
+width: 60%;
+}
+
+#ClosedCard{
+    background-color: antiquewhite;
+    text-align: center;
+    width: 20rem;
+    margin: auto;
+    margin-top: 10em;
+    height: 30em;
+    border: black 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#ClosedCard h1{
+    padding-top: 1em;
+    color: black;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+
+#img1{
+    width: 30%;
+    float: left;
+}
+
+#img2{
+    float: right;
+    width: 30%;
+}
+
+
+#openedCard{
+    background-color: antiquewhite;
+    text-align: center;
+    width: 40rem;
+    margin: auto;
+    margin-top: 10em;
+    height: 30em;
+    border: black 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#leftSide{
+    float: left;
+    
+    border: 2px black solid;
+}
+
+#rightSide{
+    float: right;
+}
+
